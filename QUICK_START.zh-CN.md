@@ -1,5 +1,7 @@
 # 快速开始指南
 
+简体中文 | [English](QUICK_START.en.md)
+
 5 分钟学会使用 Context Sync 插件。
 
 ## 安装

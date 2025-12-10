@@ -1,5 +1,7 @@
 # Context Sync Plugin for Claude Code
 
+English | [简体中文](README.zh-CN.md)
+
 Save and resume Claude Code session context across multiple windows. Never lose track of your work progress when switching between different projects or tasks.
 
 ## Features
@@ -192,6 +194,11 @@ Contributions welcome! Please:
 ## License
 
 MIT License - see [LICENSE](LICENSE) file for details
+
+## Documentation in Other Languages
+
+- 🇨🇳 [简体中文](README.zh-CN.md)
+- 📖 [All Languages](LANGUAGES.md)
 
 ## Support
 
