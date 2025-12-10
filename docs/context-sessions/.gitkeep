@@ -1,0 +1,7 @@
+# This directory stores session context files
+#
+# Files in this directory are created by the context-save skill
+# and consumed by the context-resume skill.
+#
+# Each session file follows the naming convention:
+# YYYYMMDD-HHMM-description.md
