@@ -1,0 +1,18 @@
+# Node modules (if any scripts are added later)
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Test sessions (optional - you may want to track examples)
+docs/context-sessions/*.md
+!docs/context-sessions/.gitkeep
+!docs/context-sessions/EXAMPLE.md
+
+# Logs
+*.log

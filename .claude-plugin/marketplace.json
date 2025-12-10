@@ -1,0 +1,33 @@
+{
+  "name": "context-sync-marketplace",
+  "owner": {
+    "name": "Nano-AI Team",
+    "email": "contact@nano-ai.dev"
+  },
+  "metadata": {
+    "description": "Official marketplace for Context Sync plugin - session management for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "context-sync",
+      "source": ".",
+      "description": "Save and resume Claude Code session context across multiple windows. Perfect for developers juggling multiple tasks.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "tags": [
+        "session",
+        "context",
+        "workflow",
+        "task-management",
+        "multi-window"
+      ],
+      "author": {
+        "name": "Nano-AI Team",
+        "email": "contact@nano-ai.dev"
+      },
+      "homepage": "https://github.com/your-username/claude-code-context-sync#readme",
+      "repository": "https://github.com/your-username/claude-code-context-sync",
+      "license": "MIT"
+    }
+  ]
+}

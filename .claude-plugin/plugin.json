@@ -1,0 +1,28 @@
+{
+  "name": "context-sync",
+  "version": "1.0.0",
+  "description": "Save and resume Claude Code session context across multiple windows. Preserves work progress, pending tasks, key files, and technical notes. Perfect for complex projects requiring context switching between sessions.",
+  "author": {
+    "name": "Nano-AI Team",
+    "email": "contact@nano-ai.dev"
+  },
+  "homepage": "https://github.com/your-username/claude-code-context-sync#readme",
+  "repository": "https://github.com/your-username/claude-code-context-sync",
+  "license": "MIT",
+  "keywords": [
+    "context",
+    "session",
+    "productivity",
+    "workflow",
+    "multi-window",
+    "task-management"
+  ],
+  "skills": [
+    "./skills/context-save/",
+    "./skills/context-resume/"
+  ],
+  "commands": [
+    "./commands/save-session.md",
+    "./commands/resume-session.md"
+  ]
+}
