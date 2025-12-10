@@ -6,11 +6,11 @@
 
 ```bash
 # 方法 1: 从 GitHub 安装（推荐）
-/plugin marketplace add your-username/claude-code-context-sync
+/plugin marketplace add Claudate/claude-code-context-sync
 /plugin install context-sync
 
 # 方法 2: 本地开发安装
-git clone https://github.com/your-username/claude-code-context-sync.git
+git clone https://github.com/Claudate/claude-code-context-sync.git
 /plugin marketplace add ./claude-code-context-sync
 /plugin install context-sync
 ```

@@ -29,8 +29,8 @@
 
 ```json
 {
-  "homepage": "https://github.com/你的用户名/claude-code-context-sync#readme",
-  "repository": "https://github.com/你的用户名/claude-code-context-sync"
+  "homepage": "https://github.com/Claudate/claude-code-context-sync#readme",
+  "repository": "https://github.com/Claudate/claude-code-context-sync"
 }
 ```
 
@@ -40,8 +40,8 @@
 {
   "plugins": [
     {
-      "homepage": "https://github.com/你的用户名/claude-code-context-sync#readme",
-      "repository": "https://github.com/你的用户名/claude-code-context-sync"
+      "homepage": "https://github.com/Claudate/claude-code-context-sync#readme",
+      "repository": "https://github.com/Claudate/claude-code-context-sync"
     }
   ]
 }
@@ -52,8 +52,8 @@
 ```bash
 cd claude-code-context-sync
 
-# 添加远程仓库（替换为你的用户名）
-git remote add origin https://github.com/你的用户名/claude-code-context-sync.git
+# 添加远程仓库
+git remote add origin https://github.com/Claudate/claude-code-context-sync.git
 
 # 推送到 GitHub
 git branch -M main
@@ -77,7 +77,7 @@ git push -u origin main
    ## Installation
 
    ```bash
-   /plugin marketplace add 你的用户名/claude-code-context-sync
+   /plugin marketplace add Claudate/claude-code-context-sync
    /plugin install context-sync
    ```
 
@@ -92,14 +92,14 @@ git push -u origin main
 **方法 1: 直接从仓库安装**
 
 ```bash
-/plugin marketplace add 你的用户名/claude-code-context-sync
+/plugin marketplace add Claudate/claude-code-context-sync
 /plugin install context-sync
 ```
 
 **方法 2: 克隆到本地安装**
 
 ```bash
-git clone https://github.com/你的用户名/claude-code-context-sync.git
+git clone https://github.com/Claudate/claude-code-context-sync.git
 cd claude-code-context-sync
 
 # 在 Claude Code 中
@@ -220,7 +220,7 @@ developer-tools
 
 1. 查看 [README.md](README.md)
 2. 搜索现有 Issues
-3. 创建新 Issue：https://github.com/你的用户名/claude-code-context-sync/issues
+3. 创建新 Issue：https://github.com/Claudate/claude-code-context-sync/issues
 
 ---
 

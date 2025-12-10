@@ -26,7 +26,7 @@ Save and resume Claude Code session context across multiple windows. Never lose 
 
 ```bash
 # Add the marketplace
-/plugin marketplace add your-username/claude-code-context-sync
+/plugin marketplace add Claudate/claude-code-context-sync
 
 # Install the plugin
 /plugin install context-sync
@@ -36,7 +36,7 @@ Save and resume Claude Code session context across multiple windows. Never lose 
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/claude-code-context-sync.git
+git clone https://github.com/Claudate/claude-code-context-sync.git
 
 # Create a development marketplace
 mkdir dev-marketplace
@@ -195,8 +195,8 @@ MIT License - see [LICENSE](LICENSE) file for details
 
 ## Support
 
-- **Issues**: https://github.com/your-username/claude-code-context-sync/issues
-- **Discussions**: https://github.com/your-username/claude-code-context-sync/discussions
+- **Issues**: https://github.com/Claudate/claude-code-context-sync/issues
+- **Discussions**: https://github.com/Claudate/claude-code-context-sync/discussions
 
 ## Changelog
 

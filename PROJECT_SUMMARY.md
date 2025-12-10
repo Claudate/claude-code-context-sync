@@ -104,17 +104,17 @@ claude-code-context-sync/
 
 ### 立即执行
 
-1. **更新 GitHub 用户名**
+1. **✅ 更新 GitHub 用户名（已完成）**
 
-   在以下文件中将 `your-username` 替换为实际的 GitHub 用户名：
-   - [.claude-plugin/plugin.json](claude-code-context-sync/.claude-plugin/plugin.json)
-   - [.claude-plugin/marketplace.json](claude-code-context-sync/.claude-plugin/marketplace.json)
-   - [README.md](claude-code-context-sync/README.md)
-   - [DEPLOYMENT.md](claude-code-context-sync/DEPLOYMENT.md)
+   所有文件中的 GitHub 用户名已更新为 `Claudate`：
+   - ✅ [.claude-plugin/plugin.json](claude-code-context-sync/.claude-plugin/plugin.json)
+   - ✅ [.claude-plugin/marketplace.json](claude-code-context-sync/.claude-plugin/marketplace.json)
+   - ✅ [README.md](claude-code-context-sync/README.md)
+   - ✅ [DEPLOYMENT.md](claude-code-context-sync/DEPLOYMENT.md)
 
-2. **创建 GitHub 仓库**
+2. **✅ 创建 GitHub 仓库（已完成）**
 
-   访问 https://github.com/new 创建仓库：
+   仓库已创建：https://github.com/Claudate/claude-code-context-sync
    ```
    名称: claude-code-context-sync
    描述: Save and resume Claude Code session context across multiple windows
@@ -125,7 +125,7 @@ claude-code-context-sync/
 
    ```bash
    cd claude-code-context-sync
-   git remote add origin https://github.com/你的用户名/claude-code-context-sync.git
+   git remote add origin https://github.com/Claudate/claude-code-context-sync.git
    git branch -M main
    git push -u origin main
    ```
@@ -166,7 +166,7 @@ claude-code-context-sync/
 
 ```bash
 # 添加市场
-/plugin marketplace add 你的用户名/claude-code-context-sync
+/plugin marketplace add Claudate/claude-code-context-sync
 
 # 安装插件
 /plugin install context-sync
@@ -282,8 +282,8 @@ MIT License - 允许自由使用、修改、分发
 
 ## 联系方式
 
-- **GitHub**: https://github.com/你的用户名/claude-code-context-sync
-- **Issues**: https://github.com/你的用户名/claude-code-context-sync/issues
+- **GitHub**: https://github.com/Claudate/claude-code-context-sync
+- **Issues**: https://github.com/Claudate/claude-code-context-sync/issues
 
 ---
 
