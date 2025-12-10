@@ -10,7 +10,7 @@
   "plugins": [
     {
       "name": "context-sync",
-      "source": ".",
+      "source": "./",
       "description": "Save and resume Claude Code session context across multiple windows. Perfect for developers juggling multiple tasks.",
       "version": "1.0.0",
       "category": "productivity",
