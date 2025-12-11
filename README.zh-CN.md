@@ -34,6 +34,36 @@
 /plugin install context-sync
 ```
 
+### 更新插件（推荐）
+
+更新插件到最新版本（最简单的方式）：
+
+```bash
+# 直接重新加载插件
+/plugin reload context-sync
+```
+
+或者从 GitHub 拉取最新版本：
+
+```bash
+# 更新到最新版本
+/plugin update context-sync
+```
+
+### 重新安装（如果已安装过）
+
+如果遇到提示 marketplace 已经安装的错误：
+
+```bash
+# 方式 1: 直接重新加载（最快）
+/plugin reload context-sync
+
+# 方式 2: 完全重装（如果重新加载不生效）
+/plugin marketplace remove context-sync-marketplace
+/plugin marketplace add Claudate/claude-code-context-sync
+/plugin install context-sync
+```
+
 ### 本地开发安装
 
 ```bash
@@ -195,7 +225,15 @@ cp -r claude-code-context-sync dev-marketplace/
 
 MIT License - 详见 [LICENSE](LICENSE) 文件
 
-## 其他语言文档
+## 文档
+
+### 快速链接
+
+- 📚 [快速参考指南](QUICK_REFERENCE.md) - 常用命令速查
+- 🔧 [故障排查指南](TROUBLESHOOTING.md) - 常见问题解决方案
+- 🚀 [快速开始指南](QUICK_START.zh-CN.md) - 5 分钟上手
+
+### 其他语言
 
 - 🇺🇸 [English](README.md)
 - 📖 [所有语言](LANGUAGES.md)

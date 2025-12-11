@@ -34,6 +34,36 @@ Save and resume Claude Code session context across multiple windows. Never lose 
 /plugin install context-sync
 ```
 
+### Update Plugin (Recommended)
+
+To update the plugin to the latest version (easiest way):
+
+```bash
+# Simply reload the plugin
+/plugin reload context-sync
+```
+
+Or if you want to pull the latest version from GitHub:
+
+```bash
+# Update to latest version
+/plugin update context-sync
+```
+
+### Reinstallation (If Already Installed)
+
+If you get an error saying the marketplace is already installed:
+
+```bash
+# Option 1: Just reload (quickest)
+/plugin reload context-sync
+
+# Option 2: Full reinstall (if reload doesn't work)
+/plugin marketplace remove context-sync-marketplace
+/plugin marketplace add Claudate/claude-code-context-sync
+/plugin install context-sync
+```
+
 ### Local Development
 
 ```bash
@@ -195,7 +225,15 @@ Contributions welcome! Please:
 
 MIT License - see [LICENSE](LICENSE) file for details
 
-## Documentation in Other Languages
+## Documentation
+
+### Quick Links
+
+- 📚 [Quick Reference Guide](QUICK_REFERENCE.md) - Common commands at a glance
+- 🔧 [Troubleshooting Guide](TROUBLESHOOTING.md) - Solutions to common issues
+- 🚀 [Quick Start Guide](QUICK_START.zh-CN.md) - Get started in 5 minutes
+
+### Other Languages
 
 - 🇨🇳 [简体中文](README.zh-CN.md)
 - 📖 [All Languages](LANGUAGES.md)

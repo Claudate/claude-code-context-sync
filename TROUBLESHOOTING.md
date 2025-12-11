@@ -211,7 +211,69 @@ claude-code-context-sync/
 
 ## 🔍 已知问题和修复 / Known Issues and Fixes
 
-### 问题 1: marketplace.json source 字段错误 ✅ 已修复
+### 问题 1: Marketplace 已安装错误 ✅ 解决方案
+
+**错误信息 / Error Message**:
+```
+Error: Marketplace 'context-sync-marketplace' is already installed.
+Please remove it first using '/plugin marketplace remove context-sync-marketplace'
+if you want to re-install it.
+```
+
+**原因 / Cause**:
+- Marketplace 已经在系统中安装过
+- 尝试重复安装同一个 marketplace
+
+**解决方案 / Solution**:
+
+#### 方法 1: 移除后重新安装（推荐）
+
+```bash
+# 步骤 1: 移除已安装的 marketplace
+/plugin marketplace remove context-sync-marketplace
+
+# 步骤 2: 重新安装
+/plugin marketplace add Claudate/claude-code-context-sync
+
+# 步骤 3: 安装插件
+/plugin install context-sync
+```
+
+#### 方法 2: 直接更新插件（推荐,最简单）
+
+如果只是想更新插件代码而不重新安装 marketplace:
+
+```bash
+# 方式 1: 重新加载插件配置（最快）
+/plugin reload context-sync
+
+# 方式 2: 更新插件到最新版本
+/plugin update context-sync
+
+# 方式 3: 刷新 marketplace 后更新
+/plugin marketplace refresh context-sync-marketplace
+/plugin update context-sync
+```
+
+**推荐使用**: 直接执行 `/plugin reload context-sync` 即可,无需卸载重装。
+
+#### 方法 3: 检查已安装的插件
+
+```bash
+# 列出所有已安装的 marketplace
+/plugin marketplace list
+
+# 列出所有已安装的插件
+/plugin list
+```
+
+**预防措施 / Prevention**:
+- 安装前先检查是否已经安装: `/plugin marketplace list`
+- 定期清理不使用的 marketplace 和插件
+
+---
+
+### 问题 2: marketplace.json source 字段错误 ✅ 已修复
 
 **问题描述 / Issue**:
 ```
