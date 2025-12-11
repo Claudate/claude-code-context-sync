@@ -1,6 +1,6 @@
 {
   "name": "context-sync",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save and resume Claude Code session context across multiple windows. Preserves work progress, pending tasks, key files, and technical notes. Perfect for complex projects requiring context switching between sessions.",
   "author": {
     "name": "Nano-AI Team",
